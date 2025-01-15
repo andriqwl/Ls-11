@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 100%;
+    display: block;
+    
+}
+.post-item{
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 500px;
+    overflow: hidden;
+    display: inline-block;
+}
+.post-desc{
+    padding: 20px;
+    line-height: 30px;
+}
+
+
+.post-text{
+    display: inline-block;
+    
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    /*
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    */
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 50%;
+
+    border-left-color: yellow;
+    border-right-color: blue;
+    border-top-color: red;
+    border-bottom-color: green;
+    /*
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+    padding: 20px; - до всіх сторін
+    padding: 20px 30px; зверху-знизу/зліва-зправа
+    */
+    padding: 20px 10px 20px 30px; /* за годинниковою стрілкою, починаючи з top*/
+
+    margin: 20px 10px 20px 30px; /*працює так само як і padding, тільки ззовні*/
+
+    /* 
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box; */
+    
+}
+/*.post-title{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(76, 76, 252);
+    padding: 20;
+    margin: 30;
+    border: 10px solid rgb(4, 4, 53);
+} */
